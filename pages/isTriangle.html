@@ -10,14 +10,27 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
-    <script src="./scripts/script.js" defer></script>
+    <script src="../scripts/isTriangle.js" defer></script>
 </head>
 <body>
     <header>
+        <div class="back-btn"><a href="../../index.html">&lt;&lt; Go back</a></div>
         <h2>Triangles | is Triangle?</h2>
     </header>
     <main>
-        
+        <div class="site-content">
+            <label for="angle1">Angle 1:
+                <input type="number" id="angle1" class="triangle-angle"/>
+            </label>
+            <label for="angle2">Angle 2:
+                <input type="number" id="angle2" class="triangle-angle"/>
+            </label>
+            <label for="angle3">Angle 3:
+                <input type="number" id="angle3" class="triangle-angle"/>
+            </label>
+            <button class="submit-btn">Is Triangle?</button>
+            <div class="output"></div>
+        </div>
     </main>
     <footer>
         <ul>

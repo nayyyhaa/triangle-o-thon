@@ -10,14 +10,24 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
-    <script src="./scripts/script.js" defer></script>
+    <script src="../scripts/findArea.js" defer></script>
 </head>
 <body>
     <header>
+        <div class="back-btn"><a href="../../index.html">&lt;&lt; Go back</a></div>
         <h2>Triangles | Find Area</h2>
     </header>
     <main>
-        
+        <div class="site-content">
+            <label for="base">Base of triangle:
+                <input type="number" id="base" class="triangle-measurement"/>
+            </label>
+            <label for="height">Height of triangle:
+                <input type="number" id="height" class="triangle-measurement"/>
+            </label>
+            <button class="submit-btn">Find Area</button>
+            <div class="output"></div>
+        </div> 
     </main>
     <footer>
         <ul>

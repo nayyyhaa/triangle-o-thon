@@ -10,14 +10,24 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
-    <script src="./scripts/script.js" defer></script>
+    <script src="../scripts/findHypotenuse.js" defer></script>
 </head>
 <body>
     <header>
+        <div class="back-btn"><a href="../../index.html">&lt;&lt; Go back</a></div>
         <h2>Triangles | Find Hypotenuse</h2>
     </header>
     <main>
-        
+        <div class="site-content">
+            <label for="side1">Side 1:
+                <input type="number" id="side1" class="triangle-side"/>
+            </label>
+            <label for="side2">Side 2:
+                <input type="number" id="side2" class="triangle-side"/>
+            </label>
+            <button class="submit-btn">Find Hypotenuse</button>
+            <div class="output"></div>
+        </div> 
     </main>
     <footer>
         <ul>

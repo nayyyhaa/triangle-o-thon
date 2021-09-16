@@ -10,14 +10,51 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
-    <script src="./scripts/script.js" defer></script>
+    <script src="../scripts/triangleQuiz.js" defer></script>
 </head>
 <body>
     <header>
+        <div class="back-btn"><a href="../../index.html">&lt;&lt; Go back</a></div>
         <h2>Triangles | Triangle-o-Quiz</h2>
     </header>
     <main>
-        
+        <div class="site-content">
+            <form id="form" class="form-content">
+                <label>If side A = 4cm and side B = 3cm in a triangle. What will be the measurement of the third side?</label>
+                <div class="options-content">
+                    <label>
+                        <input type="radio" value="5" name="question1"/>
+                        5cm
+                    </label>
+                    <label>
+                        <input type="radio" value="6" name="question1"/>
+                        6cm
+                    </label>
+                    <label>
+                        <input type="radio" value="4" name="question1"/>
+                        6cm
+                    </label>
+                </div>
+                
+                <label>If one of the angle of a triangle is 120 deg. Which triangle is it?</label>
+                <div class="options-content">
+                    <label>
+                        <input type="radio" value="equilateral" name="question2"/>
+                        Equilateral
+                    </label>
+                    <label>
+                        <input type="radio" value="obtuse" name="question2"/>
+                        Obtuse
+                    </label>
+                    <label>
+                        <input type="radio" value="rightangled" name="question2"/>
+                        Right-Angled
+                    </label>
+                </div>
+                <button type="submit" class="submit-btn">calculate score</button>
+            </form>
+            <div class="output"></div>
+        </div> 
     </main>
     <footer>
         <ul>
