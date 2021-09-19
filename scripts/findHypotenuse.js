@@ -3,7 +3,7 @@ let submitBtn = document.querySelector('.submit-btn');
 let output = document.querySelector('.output');
 
 function validInputs(side1, side2) {
-    if(side1 && side2) return true;
+    if(side1 && side2 && side1>0 && side2>0) return true;
     return false;
 }
 

@@ -3,7 +3,7 @@ let submitBtn = document.querySelector('.submit-btn');
 let output = document.querySelector('.output');
 
 function validInputs(angle1, angle2, angle3) {
-    if(angle1 && angle2 && angle3) return true;
+    if(angle1 && angle2 && angle3 && angle1>-1 && angle2>-1 && angle3>-1) return true;
     return false;
 }
 

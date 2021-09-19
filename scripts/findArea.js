@@ -3,7 +3,7 @@ let submitBtn = document.querySelector('.submit-btn');
 let output = document.querySelector('.output');
 
 function validInputs(base, height) {
-    if(base && height) return true;
+    if(base && height && base>0 && height>0) return true;
     return false;
 }
 

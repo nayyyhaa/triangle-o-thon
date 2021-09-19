@@ -1,7 +1,7 @@
 let form = document.querySelector("#form");
 let submitBtn = document.querySelector('.submit-btn');
 let output = document.querySelector('.output');
-let answerArray = ['5', 'obtuse'];
+let answerArray = ['5', 'obtuse', 'a+b+c', '45', 'one'];
 
 function calculateScore(event) {
     event.preventDefault();
