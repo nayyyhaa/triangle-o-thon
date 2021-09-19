@@ -1,6 +1,6 @@
 # Know-your-triangles
 
-- This is Vanilla Js project to teach you all about the world.
+- This is Vanilla Js project to teach you all about the world of Triangles.
 
 ## Features:
 
